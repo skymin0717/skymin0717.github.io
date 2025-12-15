@@ -1,11 +1,13 @@
 # Setup
 title: Minseo Kim
-description: KAIST CS (2022 ~)
+description: |
+  KAIST CS (2022 ~)
+  Bagelcode Data Engineering Intern (2025)
 url: https://skymin0717.github.io
-avatar: /avatar.jpeg
+avatar: /avatar.jpg
 paginate: 5
 permalink: pretty
-cover_image: /bg.jpeg
+cover_image: /bg.jpg
 
 # Gems
 plugins:
