@@ -2,8 +2,8 @@
 layout: post
 title: Hello World!!
 author: Minseo Kim
-tags:
-date: 2025-12-15 18:00 +0800
+tags: []
+date: 2025-12-15 18:00 +0900
 ---
 
 안녕하세요. 첫 글입니다.
