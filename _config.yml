@@ -1,6 +1,6 @@
 # Setup
 title: Minseo Kim
-description: High hopes ⚡️
+description: High hopes ⚡️ / CS 전공 대학생
 url: https://skymin0717.github.io
 avatar: /avatar.jpg
 paginate: 5
@@ -54,6 +54,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Minseo Kim
+  url: https://github.com/skymin0717
+  email: mskim2556@gmail.com
