@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: [https://skymin0717.github.io/sitemap.xml](https://skymin0717.github.io/sitemap.xml)
+Sitemap: https://skymin0717.github.io/sitemap.xml
