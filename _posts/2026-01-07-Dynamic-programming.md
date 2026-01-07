@@ -61,7 +61,9 @@ N이 주어졌을 때, fibonacci(N)을 호출했을 때, 0과 1이 각각 몇 �
 다시 꺼내쓰기 때문에 효율적인 시간 단축을 가져올 수 있다.
 
 - Topdown : Memorization 이용, 큰 문제를 해결하기 위해 작은 문제를 호출하는 방식 
-    ex :  fibonacci(5) = fibonacci(4) + fibonacci(3) = 2*fibonacci(3) + fibonacci(2) ...
+
+> ex :  fibonacci(5) = fibonacci(4) + fibonacci(3) = 2*fibonacci(3) + fibonacci(2) ...
+
 - Bottomup : Tabulation 이용 (테이블을 하나하나 채워나간다는 의미), 작은 문제를 이용해 큰 문제 해결
 
 피보나치 함수 문제는 이러한 동적 계획법을 사용해야 timeout 없이 문제를 잘 해결할 수 있었다.
