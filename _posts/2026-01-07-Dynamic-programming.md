@@ -4,6 +4,7 @@ title: Dynamic programming - 피보나치 함수 문제
 author: Minseo Kim
 tags: []
 date: 2026-01-07 01:00 +0900
+toc:  true
 ---
 
 백준에서 순서대로 문제를 풀다가 오랜만에 피보나치 함수 문제를 마추쳤다. 복기도 할 겸, 까먹지 않도록 정리해보려 한다.
@@ -58,6 +59,10 @@ N이 주어졌을 때, fibonacci(N)을 호출했을 때, 0과 1이 각각 몇 �
 동적 계획법은 복잡한 문제를 더 작은 하위 문제로 나누어 해결하는 **알고리즘 설계 기법**이다.
 중복되는 계산 결과를 저장하는 Memorization 을 사용하고, 계산한 값을 저장 후 필요 시에
 다시 꺼내쓰기 때문에 효율적인 시간 단축을 가져올 수 있다.
+
+- Topdown : Memorization 이용, 큰 문제를 해결하기 위해 작은 문제를 호출하는 방식 
+    ex :  fibonacci(5) = fibonacci(4) + fibonacci(3) = 2*fibonacci(3) + fibonacci(2) ...
+- Bottomup : Tabulation 이용 (테이블을 하나하나 채워나간다는 의미), 작은 문제를 이용해 큰 문제 해결
 
 피보나치 함수 문제는 이러한 동적 계획법을 사용해야 timeout 없이 문제를 잘 해결할 수 있었다.
 아래는 나의 제출 답변이다.
