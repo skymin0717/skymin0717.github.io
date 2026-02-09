@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dynamic programming - 피보나치 함수 문제
+title: "[Dynamic programming] - 피보나치 함수 문제"
 author: Minseo Kim
 tags: []
 date: 2026-01-07 01:00 +0900
